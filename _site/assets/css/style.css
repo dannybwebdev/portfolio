@@ -1,0 +1,103 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  margin: 24px;
+}
+body h2 {
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  max-width: 1160px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #172021;
+  color: white;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+}
+
+.content_section {
+  padding: 50px 0;
+}
+
+header {
+  background-color: #9CD4E0;
+}
+header p {
+  font-size: 36px;
+  margin: 0;
+}
+header nav {
+  font-size: 18px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+header nav ul li {
+  margin-right: 24px;
+}
+header #header_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero {
+  background-color: #9CD4E0;
+  padding: 100px 0;
+}
+#hero h1 {
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0;
+}
+#hero p {
+  font-size: 32px;
+  max-width: 700px;
+}
+
+#projects p {
+  font-size: 18px;
+}
+#projects #projects_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about h3 {
+  font-size: 24px;
+}
+#about p {
+  font-size: 18px;
+}
+#about #about_container {
+  display: flex;
+  justify-content: space-between;
+}
+#about #about_text {
+  max-width: 300px;
+}
+
+#contact {
+  background-color: #9CD4E0;
+  padding-bottom: 150px;
+}
+#contact p {
+  font-size: 18px;
+}
+#contact #contact_container {
+  display: flex;
+  justify-content: space-between;
+}
+#contact #contact_text {
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
