@@ -38,18 +38,24 @@
 
     <section class="content_section" id="projects">
       <div class="container">
-        <div id="projects_container">
-          <div id="projects_description">
-            <h2>title</h2>
-            <p>language and framework</p>
-            <p>description</p>
-            <button>View Project</button>
-          </div>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <div id="projects_container">
+                <div id="projects_description">
+                  <h2>{{ post.title }}</h2>
+                  <p>{{ post.language }}</p>
+                  <p>{{ post.content }}</p>
+                  <button>View Project</button>
+                </div>
 
-          <div id="projects_image">
-            <div style="background-color: grey; width:300px; height:300px"></div>
-          </div>
-        </div>
+                <div id="projects_image">
+                  <div style="background-color: grey; width:300px; height:300px"></div>
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </section>
 
